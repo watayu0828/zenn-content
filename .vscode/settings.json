@@ -1,0 +1,10 @@
+{
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "If the committed file is a Markdown (.md) file, generate the commit message as 'publish: {fileName}' without the extension. Example: publish: setup-guide"
+    },
+    {
+      "text": "For any other file types, follow the normal Conventional Commits style (e.g., feat:, fix:, chore:)."
+    }
+  ]
+}
