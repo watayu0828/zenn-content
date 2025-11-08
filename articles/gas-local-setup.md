@@ -104,6 +104,16 @@ mv appsscript.json dist/appsscript.json
 }
 ```
 
+### .gitignore の作成
+
+Git を使用する場合、`node_modules` フォルダや `dist` フォルダ、`.clasp.json` を無視するために `.gitignore` ファイルを作成します。
+
+```gitignore
+node_modules/
+dist/
+.clasp.json
+```
+
 ## 6. TypeScript と ESLint の環境構築
 
 TypeScript で開発し、ESLint でコード品質を保つための環境を整えます。
